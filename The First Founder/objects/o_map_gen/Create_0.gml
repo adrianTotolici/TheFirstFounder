@@ -41,3 +41,10 @@ for (var i = 0; i < _w; i++){
 		tilemap_set(_tilemap_id, ds_grid_get(global.map_data, i, j), i, j);
 	}
 }
+
+//Add village
+var _start_x = room_width / 2;
+var _start_y = room_height / 2;
+repeat(3) {
+	instance_create_layer(_start_x + irandom_range(-100, 100), _start_y + irandom_range(-100,100), "Instances_2", o_human);
+}
