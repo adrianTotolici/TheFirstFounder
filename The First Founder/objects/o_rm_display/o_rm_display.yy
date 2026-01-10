@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"o_map_gen",
+  "%Name":"o_rm_display",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":76,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_map_gen",
+  "name":"o_rm_display",
   "overriddenProperties":[],
   "parent":{
-    "name":"game",
-    "path":"folders/objects/game.yy",
+    "name":"common",
+    "path":"folders/objects/common.yy",
   },
   "parentObjectId":null,
   "persistent":false,
