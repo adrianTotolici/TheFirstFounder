@@ -1,9 +1,12 @@
 // Movement
 target_x = x;
 target_y = y;
-move_speed = 4;
-state = "idle";
+move_speed = 2;
+state = global.STATE_IDLE;
 
-// Interaction
-target_title_x = -1;
-target_title_y = -1;
+job_tile_x = -1;
+job_tile_y = -1;
+work_timer = 0;
+full_hands = false;
+inventory_berries = 0;
+inventory_leaves = 0;

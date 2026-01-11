@@ -7,7 +7,7 @@ window_set_size(_screen_w, _screen_h);
 
 // 3. Update the Camera to match the new surface shape
 if (view_enabled && view_visible[0]) {
-	var _ideal_height = 2054; 
+	var _ideal_height = 1024; 
 	var _aspect_ratio = _screen_w / _screen_h;
 	var _ideal_width = round(_ideal_height * _aspect_ratio);
 	

@@ -6,5 +6,9 @@ y = _margin + 40;
 
 if (room == rm_game) {
 	draw_self();
-	draw_text(x+20, y+10, "MENU");
+	// 2. CLEAN UP
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	draw_set_color(c_white);
+	draw_text(x-20, y-10, "MENU");
 }

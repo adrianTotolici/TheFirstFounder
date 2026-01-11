@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ExecuteCommand",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ExecuteCommand",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
